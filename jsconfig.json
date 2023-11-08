@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    // "checkJs": true // JS dosyalarını kontrol etme (isteğe bağlı)
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ],
+}

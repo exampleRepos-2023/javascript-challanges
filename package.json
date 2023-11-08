@@ -1,0 +1,15 @@
+{
+  "name": "100-js-challenges",
+  "version": "1.0.0",
+  "description": "100 JavaScript challeneges for you to solve",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "jest": "^29.7.0"
+  }
+}
