@@ -1,3 +1,14 @@
-function arraySum() {}
+/**
+ * Calculates the sum of an array of numbers using recursion.
+ * @param {Array} arr - The array of numbers.
+ * @returns {number} - The sum of the numbers.
+ */
+function arraySum(arr) {
+  if (arr.length === 0) return 0
 
-module.exports = arraySum;
+  return arraySum(arr.slice(1)) + arr[0]
+}
+
+console.log(result)
+
+module.exports = arraySum

@@ -1,3 +1,12 @@
-function countDown() {}
+function countDown(num) {
+  if (num <= 0) {
+    console.log('All Done!')
+    return
+  }
 
-module.exports = countDown;
+  console.log(num)
+  num--
+  countDown(num)
+}
+
+module.exports = countDown
