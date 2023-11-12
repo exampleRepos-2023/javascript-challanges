@@ -9,6 +9,4 @@ function arraySum(arr) {
   return arraySum(arr.slice(1)) + arr[0]
 }
 
-console.log(result)
-
 module.exports = arraySum
